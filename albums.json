@@ -1,0 +1,144 @@
+{
+	"albums": [
+		{
+			title: 'Proper',
+			artist: 'Into It. Over It.',
+			genre: 'Indie',
+			label: 'No Sleep Records',
+			release: '2011'
+		},
+		{
+			title: 'Their / They're / There',
+			artist: 'Their / They're / There',
+			genre: 'Indie',
+			label: 'Top Shelf Records',
+			release: '2013'
+		},
+		{
+			title: 'Parting the Sea Between Brightness and Me',
+			artist: 'Touche Amore',
+			genre: 'Post-Hardcore',
+			label: 'Deathwish',
+			release: '2011'
+		},
+		{
+			title: 'Is Survived By',
+			artist: 'Touche Amore',
+			genre: 'Post-Hardcore',
+			label: 'Deathwish',
+			release: '2013'
+		},
+		{
+			title: 'The Light Under Closed Doors',
+			artist: 'The Swellers',
+			genre: 'Pop Punk',
+			label: 'No Sleep Records',
+			release: '2013'
+		},
+		{
+			title: 'Wildlife',
+			artist: 'La Dispute',
+			genre: 'Spoken Word',
+			label: 'No Sleep Records',
+			release: '2011'
+		},
+		{
+			title: 'Dance Gavin Dance',
+			artist: 'Dance Gavin Dance',
+			genre: 'Post-Hardcore',
+			label: 'Rise Records',
+			release: '2008'
+		},
+		{
+			title: 'Enola',
+			artist: 'I Can Make A Mess Like Nobody's Business',
+			genre: 'Singer/Songwriter',
+			label: 'Rise Records',
+			release: '2013'
+		},
+		{
+			title: 'The Con',
+			artist: 'Tegan and Sara',
+			genre: 'Singer/Songwriter',
+			label: 'Vapor',
+			release: '2007'
+		},
+		{
+			title: 'Wincing the Night Away',
+			artist: 'The Shins',
+			genre: 'Indie',
+			label: 'Sub Pop Records',
+			release: '2007'
+		},
+		{
+			title: 'The Moon and Antarctica',
+			artist: 'Modest Mouse',
+			genre: 'Alternative',
+			label: 'Epic',
+			release: '2000'
+		},
+		{
+			title: 'Hello Rockview',
+			artist: 'Less Than Jake',
+			genre: 'Ska',
+			label: 'Fueled by Ramen',
+			release: '1998'
+		},
+		{
+			title: 'Say What You Mean',
+			artist: 'Allison Weiss',
+			genre: 'Singer/Songwriter',
+			label: 'No Sleep Records',
+			release: '2013'
+		},
+		{
+			title: 'When It Was Now',
+			artist: 'Atlas Genius',
+			genre: 'Indie',
+			label: 'Warner',
+			release: '2013'
+		},
+		{
+			title: 'The Things We Think We're Missing',
+			artist: 'Balance and Composure',
+			genre: 'Post-Hardcore',
+			label: 'No Sleep Records',
+			release: '2013'
+		},
+		{
+			title: 'Silent Alarm',
+			artist: 'Bloc Party',
+			genre: 'Alternative',
+			label: 'Wichita',
+			release: '2005'
+		},
+		{
+			title: 'Sempiternal',
+			artist: 'Bring Me the Horizon',
+			genre: 'Metalcore',
+			label: 'Epitaph Records',
+			release: '2013'
+		},
+		{
+			title: 'Brothers in Arms',
+			artist: 'Dire Straits',
+			genre: 'Rock',
+			label: 'Warner',
+			release: '1985'
+		},
+		{
+			title: 'Blue Sky Noise',
+			artist: 'Circa Survive',
+			genre: 'Alternative',
+			label: 'Atlantic',
+			release: '2010'
+		},
+		{
+			title: 'Pretty Good',
+			artist: 'Dads',
+			genre: 'Emo',
+			label: '6131 Records',
+			release: '2013'
+		}
+	]
+}
