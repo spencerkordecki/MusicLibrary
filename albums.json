@@ -1,144 +1,164 @@
 {
 	"albums": [
 		{
-			title: 'Proper',
-			artist: 'Into It. Over It.',
-			genre: 'Indie',
-			label: 'No Sleep Records',
-			release: '2011'
+			"title": "Proper",
+			"artist": "Into It. Over It.",
+			"genre": "Indie",
+			"label": "No Sleep Records",
+			"release": "2011",
+			"art": "AlbumArt/proper.jpg"
 		},
 		{
-			title: 'Their / They're / There',
-			artist: 'Their / They're / There',
-			genre: 'Indie',
-			label: 'Top Shelf Records',
-			release: '2013'
+			"title": "Their / They're / There",
+			"artist": "Their / They're / There",
+			"genre": "Indie",
+			"label": "Top Shelf Records",
+			"release": "2013",
+			"art": "AlbumArt/theirtheyrethere.jpg"
 		},
 		{
-			title: 'Parting the Sea Between Brightness and Me',
-			artist: 'Touche Amore',
-			genre: 'Post-Hardcore',
-			label: 'Deathwish',
-			release: '2011'
+			"title": "Parting the Sea Between Brightness and Me",
+			"artist": "Touché Amoré",
+			"genre": "Post-Hardcore",
+			"label": "Deathwish",
+			"release": "2011",
+			"art": "AlbumArt/partingthesea.jpg"
 		},
 		{
-			title: 'Is Survived By',
-			artist: 'Touche Amore',
-			genre: 'Post-Hardcore',
-			label: 'Deathwish',
-			release: '2013'
+			"title": "Is Survived By",
+			"artist": "Touché Amoré",
+			"genre": "Post-Hardcore",
+			"label": "Deathwish",
+			"release": "2013",
+			"art": "AlbumArt/issurvivedby.jpg"
 		},
 		{
-			title: 'The Light Under Closed Doors',
-			artist: 'The Swellers',
-			genre: 'Pop Punk',
-			label: 'No Sleep Records',
-			release: '2013'
+			"title": "The Light Under Closed Doors",
+			"artist": "The Swellers",
+			"genre": "Pop Punk",
+			"label": "No Sleep Records",
+			"release": "2013",
+			"art": "AlbumArt/lightundercloseddoors.jpg"
 		},
 		{
-			title: 'Wildlife',
-			artist: 'La Dispute',
-			genre: 'Spoken Word',
-			label: 'No Sleep Records',
-			release: '2011'
+			"title": "Wildlife",
+			"artist": "La Dispute",
+			"genre": "Spoken Word",
+			"label": "No Sleep Records",
+			"release": "2011",
+			"art": "AlbumArt/wildlife.jpg"
 		},
 		{
-			title: 'Dance Gavin Dance',
-			artist: 'Dance Gavin Dance',
-			genre: 'Post-Hardcore',
-			label: 'Rise Records',
-			release: '2008'
+			"title": "Dance Gavin Dance",
+			"artist": "Dance Gavin Dance",
+			"genre": "Post-Hardcore",
+			"label": "Rise Records",
+			"release": "2008",
+			"art": "AlbumArt/dancegavindance.jpg"
 		},
 		{
-			title: 'Enola',
-			artist: 'I Can Make A Mess Like Nobody's Business',
-			genre: 'Singer/Songwriter',
-			label: 'Rise Records',
-			release: '2013'
+			"title": "Enola",
+			"artist": "I Can Make A Mess",
+			"genre": "Singer/Songwriter",
+			"label": "Rise Records",
+			"release": "2013",
+			"art": "AlbumArt/enola.jpg"
 		},
 		{
-			title: 'The Con',
-			artist: 'Tegan and Sara',
-			genre: 'Singer/Songwriter',
-			label: 'Vapor',
-			release: '2007'
+			"title": "The Con",
+			"artist": "Tegan and Sara",
+			"genre": "Singer/Songwriter",
+			"label": "Vapor",
+			"release": "2007",
+			"art": "AlbumArt/thecon.jpg"
 		},
 		{
-			title: 'Wincing the Night Away',
-			artist: 'The Shins',
-			genre: 'Indie',
-			label: 'Sub Pop Records',
-			release: '2007'
+			"title": "Wincing the Night Away",
+			"artist": "The Shins",
+			"genre": "Indie",
+			"label": "Sub Pop Records",
+			"release": "2007",
+			"art": "AlbumArt/wincingthenightaway.jpg"
 		},
 		{
-			title: 'The Moon and Antarctica',
-			artist: 'Modest Mouse',
-			genre: 'Alternative',
-			label: 'Epic',
-			release: '2000'
+			"title": "The Moon and Antarctica",
+			"artist": "Modest Mouse",
+			"genre": "Alternative",
+			"label": "Epic",
+			"release": "2000",
+			"art": "AlbumArt/moonandantarctica.jpg"
 		},
 		{
-			title: 'Hello Rockview',
-			artist: 'Less Than Jake',
-			genre: 'Ska',
-			label: 'Fueled by Ramen',
-			release: '1998'
+			"title": "Hello Rockview",
+			"artist": "Less Than Jake",
+			"genre": "Ska",
+			"label": "Fueled by Ramen",
+			"release": "1998",
+			"art": "AlbumArt/hellorockview.jpg"
 		},
 		{
-			title: 'Say What You Mean',
-			artist: 'Allison Weiss',
-			genre: 'Singer/Songwriter',
-			label: 'No Sleep Records',
-			release: '2013'
+			"title": "Say What You Mean",
+			"artist": "Allison Weiss",
+			"genre": "Singer/Songwriter",
+			"label": "No Sleep Records",
+			"release": "2013",
+			"art": "AlbumArt/saywhatyoumean.jpg"
 		},
 		{
-			title: 'When It Was Now',
-			artist: 'Atlas Genius',
-			genre: 'Indie',
-			label: 'Warner',
-			release: '2013'
+			"title": "When It Was Now",
+			"artist": "Atlas Genius",
+			"genre": "Indie",
+			"label": "Warner",
+			"release": "2013",
+			"art": "AlbumArt/whenitwasnow.jpg"
 		},
 		{
-			title: 'The Things We Think We're Missing',
-			artist: 'Balance and Composure',
-			genre: 'Post-Hardcore',
-			label: 'No Sleep Records',
-			release: '2013'
+			"title": "The Things We Think We're Missing",
+			"artist": "Balance and Composure",
+			"genre": "Post-Hardcore",
+			"label": "No Sleep Records",
+			"release": "2013",
+			"art": "AlbumArt/thinkweremissing.jpg"
 		},
 		{
-			title: 'Silent Alarm',
-			artist: 'Bloc Party',
-			genre: 'Alternative',
-			label: 'Wichita',
-			release: '2005'
+			"title": "Silent Alarm",
+			"artist": "Bloc Party",
+			"genre": "Alternative",
+			"label": "Wichita",
+			"release": "2005",
+			"art": "AlbumArt/silentalarm.jpg"
 		},
 		{
-			title: 'Sempiternal',
-			artist: 'Bring Me the Horizon',
-			genre: 'Metalcore',
-			label: 'Epitaph Records',
-			release: '2013'
+			"title": "Sempiternal",
+			"artist": "Bring Me the Horizon",
+			"genre": "Metalcore",
+			"label": "Epitaph Records",
+			"release": "2013",
+			"art": "AlbumArt/sempiternal.jpg"
 		},
 		{
-			title: 'Brothers in Arms',
-			artist: 'Dire Straits',
-			genre: 'Rock',
-			label: 'Warner',
-			release: '1985'
+			"title": "Brothers in Arms",
+			"artist": "Dire Straits",
+			"genre": "Rock",
+			"label": "Warner",
+			"release": "1985",
+			"art": "AlbumArt/brothersinarms.jpg"
 		},
 		{
-			title: 'Blue Sky Noise',
-			artist: 'Circa Survive',
-			genre: 'Alternative',
-			label: 'Atlantic',
-			release: '2010'
+			"title": "Blue Sky Noise",
+			"artist": "Circa Survive",
+			"genre": "Alternative",
+			"label": "Atlantic",
+			"release": "2010",
+			"art": "AlbumArt/blueskynoise.jpg"
 		},
 		{
-			title: 'Pretty Good',
-			artist: 'Dads',
-			genre: 'Emo',
-			label: '6131 Records',
-			release: '2013'
+			"title": "Pretty Good",
+			"artist": "Dads",
+			"genre": "Emo",
+			"label": "6131 Records",
+			"release": "2013",
+			"art": "AlbumArt/prettygood.jpg"
 		}
 	]
 }

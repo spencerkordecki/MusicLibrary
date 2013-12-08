@@ -8,107 +8,278 @@
   <meta name="description" content="Final Project">
   <!-- Styles -->
   <link rel="stylesheet" href="music-library.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function()
+    {
+      console.log('jquery is loaded');
+
+      $.getJSON('albums.json', function(data)
+      {
+        $('.artwork').each(function(index){
+          $(this).find('#albumArt').attr('src', data.albums[index].art);
+        });
+        
+        $('.albumInformation').each(function(index){
+          $(this).find('#artistName').html(data.albums[index].artist);
+          $(this).find('#albumName').html(data.albums[index].title);
+          $(this).find('#genre').html(data.albums[index].genre);
+          $(this).find('#label').html(data.albums[index].label);
+          $(this).find('#release').html(data.albums[index].release);
+        });
+      });
+
+      $('.artwork').mouseenter(function(){
+        $(this).parent('.album').find('.albumInformation').stop().slideDown('medium');
+      });
+
+      $('.album').mouseleave(function(){
+        $(this).find('.albumInformation').stop().slideUp('medium');
+      });
+
+    });
+  </script>
 </head>
 <body>
   <div id="albums">
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
+      <div class="artwork">
+        <img src="" id="albumArt">
+      </div>
       <div class="albumInformation">
-        album placeholder.
+        <h1 id="artistName">Artist Name</h1>
+        <h2 id="albumName">Album Name</h2>
+        <h5 id="genre">Genre<h5>
+        <h5 id="label">Record Label</h5>
+        <h5 id="release">Release Year</h5>
       </div>
     </div>
   </div> 
