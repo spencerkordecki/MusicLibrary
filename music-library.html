@@ -12,7 +12,8 @@
   <script type="text/javascript">
     $(document).ready(function()
     {
-      console.log('jquery is loaded');
+      console.log('jQuery is loaded');
+      $('#searchText')[0].reset();
 
       $.getJSON('albums.json', function(data)
       {
@@ -21,11 +22,11 @@
         });
         
         $('.albumInformation').each(function(index){
-          $(this).find('#artistName').html(data.albums[index].artist);
-          $(this).find('#albumName').html(data.albums[index].title);
-          $(this).find('#genre').html(data.albums[index].genre);
-          $(this).find('#label').html(data.albums[index].label);
-          $(this).find('#release').html(data.albums[index].release);
+          $(this).find('.artistName').html(data.albums[index].artist);
+          $(this).find('.albumName').html(data.albums[index].title);
+          $(this).find('.genre').html(data.albums[index].genre);
+          $(this).find('.label').html(data.albums[index].label);
+          $(this).find('.release').html(data.albums[index].release);
         });
       });
 
@@ -37,21 +38,91 @@
         $(this).find('.albumInformation').stop().slideUp('medium');
       });
 
+      $('.searchButton').click(function(e){
+        e.preventDefault();
+        var input = $(this).parent('#searchText').find('.searchInput').val().toLowerCase();
+        console.log('Input is: ' + input);
+        var type = $(this).parent('#searchText').find('.searchType').val();
+        console.log('Selected type is ' + type);
+
+        if(type == 'title')
+        {
+          $('.albumName').each(function(){
+            filter(input, this);
+          });
+        }
+        else if(type == 'artist')
+        {
+          $('.artistName').each(function()
+          {
+            filter(input, this);
+          });
+        }
+        else if(type == 'genre')
+        {
+          $('.genre').each(function()
+          {
+            filter(input, this);
+          });
+        }
+        else if(type == 'label')
+        {
+          $('.label').each(function()
+          {
+            filter(input, this);
+          });
+        }
+        else if(type == 'release')
+        {
+          $('.release').each(function()
+          {
+            filter(input, this);
+          });
+        }
+      });
+
+      function filter(input, element)
+      {
+        console.log($(element).text());
+        var content = $(element).text().toLowerCase();
+        if(input != content)
+        {
+          $(element).parent('.albumInformation').parent('.album').css('visibility', 'hidden');
+        }
+        else
+        {
+          $(element).parent('.albumInformation').parent('.album').css('visibility', 'visible');
+        }
+      }
+
     });
   </script>
 </head>
 <body>
+  <div id="search">
+    <form id="searchText">
+      <input type="text" size="16" class="searchInput">
+      <select class="searchType">
+        <option value="title">Album Title</option>
+        <option value="artist">Artist</option>
+        <option value="genre">Genre</option>
+        <option value="label">Record Label</option>
+        <option value="release">Release Year</option>
+      </select> 
+      <input type="submit" value=">" class="searchButton">
+    </form>
+  </div>
   <div id="albums">
     <div class="album">
       <div class="artwork">
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -59,11 +130,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -71,11 +142,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -83,11 +154,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -95,11 +166,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -107,11 +178,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -119,11 +190,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -131,11 +202,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -143,11 +214,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -155,11 +226,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -167,11 +238,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -179,11 +250,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -191,11 +262,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -203,11 +274,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -215,11 +286,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -227,11 +298,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -239,11 +310,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -251,11 +322,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -263,11 +334,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
     <div class="album">
@@ -275,11 +346,11 @@
         <img src="" id="albumArt">
       </div>
       <div class="albumInformation">
-        <h1 id="artistName">Artist Name</h1>
-        <h2 id="albumName">Album Name</h2>
-        <h5 id="genre">Genre<h5>
-        <h5 id="label">Record Label</h5>
-        <h5 id="release">Release Year</h5>
+        <h1 class="artistName">Artist Name</h1>
+        <h2 class="albumName">Album Name</h2>
+        <h5 class="genre">Genre<h5>
+        <h5 class="label">Record Label</h5>
+        <h5 class="release">Release Year</h5>
       </div>
     </div>
   </div> 

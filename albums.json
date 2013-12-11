@@ -6,7 +6,7 @@
 			"genre": "Indie",
 			"label": "No Sleep Records",
 			"release": "2011",
-			"art": "AlbumArt/proper.jpg"
+			"art": "albumart/proper.jpg"
 		},
 		{
 			"title": "Their / They're / There",
@@ -14,7 +14,7 @@
 			"genre": "Indie",
 			"label": "Top Shelf Records",
 			"release": "2013",
-			"art": "AlbumArt/theirtheyrethere.jpg"
+			"art": "albumart/theirtheyrethere.jpg"
 		},
 		{
 			"title": "Parting the Sea Between Brightness and Me",
@@ -22,7 +22,7 @@
 			"genre": "Post-Hardcore",
 			"label": "Deathwish",
 			"release": "2011",
-			"art": "AlbumArt/partingthesea.jpg"
+			"art": "albumart/partingthesea.jpg"
 		},
 		{
 			"title": "Is Survived By",
@@ -30,7 +30,7 @@
 			"genre": "Post-Hardcore",
 			"label": "Deathwish",
 			"release": "2013",
-			"art": "AlbumArt/issurvivedby.jpg"
+			"art": "albumart/issurvivedby.jpg"
 		},
 		{
 			"title": "The Light Under Closed Doors",
@@ -38,7 +38,7 @@
 			"genre": "Pop Punk",
 			"label": "No Sleep Records",
 			"release": "2013",
-			"art": "AlbumArt/lightundercloseddoors.jpg"
+			"art": "albumart/lightundercloseddoors.jpg"
 		},
 		{
 			"title": "Wildlife",
@@ -46,7 +46,7 @@
 			"genre": "Spoken Word",
 			"label": "No Sleep Records",
 			"release": "2011",
-			"art": "AlbumArt/wildlife.jpg"
+			"art": "albumart/wildlife.jpg"
 		},
 		{
 			"title": "Dance Gavin Dance",
@@ -54,7 +54,7 @@
 			"genre": "Post-Hardcore",
 			"label": "Rise Records",
 			"release": "2008",
-			"art": "AlbumArt/dancegavindance.jpg"
+			"art": "albumart/dancegavindance.jpg"
 		},
 		{
 			"title": "Enola",
@@ -62,7 +62,7 @@
 			"genre": "Singer/Songwriter",
 			"label": "Rise Records",
 			"release": "2013",
-			"art": "AlbumArt/enola.jpg"
+			"art": "albumart/enola.jpg"
 		},
 		{
 			"title": "The Con",
@@ -70,7 +70,7 @@
 			"genre": "Singer/Songwriter",
 			"label": "Vapor",
 			"release": "2007",
-			"art": "AlbumArt/thecon.jpg"
+			"art": "albumart/thecon.jpg"
 		},
 		{
 			"title": "Wincing the Night Away",
@@ -78,7 +78,7 @@
 			"genre": "Indie",
 			"label": "Sub Pop Records",
 			"release": "2007",
-			"art": "AlbumArt/wincingthenightaway.jpg"
+			"art": "albumart/wincingthenightaway.jpg"
 		},
 		{
 			"title": "The Moon and Antarctica",
@@ -86,7 +86,7 @@
 			"genre": "Alternative",
 			"label": "Epic",
 			"release": "2000",
-			"art": "AlbumArt/moonandantarctica.jpg"
+			"art": "albumart/moonandantarctica.jpg"
 		},
 		{
 			"title": "Hello Rockview",
@@ -94,7 +94,7 @@
 			"genre": "Ska",
 			"label": "Fueled by Ramen",
 			"release": "1998",
-			"art": "AlbumArt/hellorockview.jpg"
+			"art": "albumart/hellorockview.jpg"
 		},
 		{
 			"title": "Say What You Mean",
@@ -102,7 +102,7 @@
 			"genre": "Singer/Songwriter",
 			"label": "No Sleep Records",
 			"release": "2013",
-			"art": "AlbumArt/saywhatyoumean.jpg"
+			"art": "albumart/saywhatyoumean.jpg"
 		},
 		{
 			"title": "When It Was Now",
@@ -110,7 +110,7 @@
 			"genre": "Indie",
 			"label": "Warner",
 			"release": "2013",
-			"art": "AlbumArt/whenitwasnow.jpg"
+			"art": "albumart/whenitwasnow.jpg"
 		},
 		{
 			"title": "The Things We Think We're Missing",
@@ -118,7 +118,7 @@
 			"genre": "Post-Hardcore",
 			"label": "No Sleep Records",
 			"release": "2013",
-			"art": "AlbumArt/thinkweremissing.jpg"
+			"art": "albumart/thinkweremissing.jpg"
 		},
 		{
 			"title": "Silent Alarm",
@@ -126,7 +126,7 @@
 			"genre": "Alternative",
 			"label": "Wichita",
 			"release": "2005",
-			"art": "AlbumArt/silentalarm.jpg"
+			"art": "albumart/silentalarm.jpg"
 		},
 		{
 			"title": "Sempiternal",
@@ -134,7 +134,7 @@
 			"genre": "Metalcore",
 			"label": "Epitaph Records",
 			"release": "2013",
-			"art": "AlbumArt/sempiternal.jpg"
+			"art": "albumart/sempiternal.jpg"
 		},
 		{
 			"title": "Brothers in Arms",
@@ -142,7 +142,7 @@
 			"genre": "Rock",
 			"label": "Warner",
 			"release": "1985",
-			"art": "AlbumArt/brothersinarms.jpg"
+			"art": "albumart/brothersinarms.jpg"
 		},
 		{
 			"title": "Blue Sky Noise",
@@ -150,7 +150,7 @@
 			"genre": "Alternative",
 			"label": "Atlantic",
 			"release": "2010",
-			"art": "AlbumArt/blueskynoise.jpg"
+			"art": "albumart/blueskynoise.jpg"
 		},
 		{
 			"title": "Pretty Good",
@@ -158,7 +158,7 @@
 			"genre": "Emo",
 			"label": "6131 Records",
 			"release": "2013",
-			"art": "AlbumArt/prettygood.jpg"
+			"art": "albumart/prettygood.jpg"
 		}
 	]
 }

@@ -2,9 +2,22 @@ body {
   background-color: #CCCCCC;
 }
 
+#search {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.searchInput {
+  width: 400px;
+  height: 30px;
+  font-family: 'Arial';
+  font-size: 16pt;
+}
+
 #albums {
+  clear: both;
   overflow: hidden;
-  margin: px;
 }
 
 .album {
