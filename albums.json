@@ -1,164 +1,162 @@
-{
-	"albums": [
-		{
-			"title": "Proper",
-			"artist": "Into It. Over It.",
-			"genre": "Indie",
-			"label": "No Sleep Records",
-			"release": "2011",
-			"art": "albumart/proper.jpg"
-		},
-		{
-			"title": "Their / They're / There",
-			"artist": "Their / They're / There",
-			"genre": "Indie",
-			"label": "Top Shelf Records",
-			"release": "2013",
-			"art": "albumart/theirtheyrethere.jpg"
-		},
-		{
-			"title": "Parting the Sea Between Brightness and Me",
-			"artist": "Touché Amoré",
-			"genre": "Post-Hardcore",
-			"label": "Deathwish",
-			"release": "2011",
-			"art": "albumart/partingthesea.jpg"
-		},
-		{
-			"title": "Is Survived By",
-			"artist": "Touché Amoré",
-			"genre": "Post-Hardcore",
-			"label": "Deathwish",
-			"release": "2013",
-			"art": "albumart/issurvivedby.jpg"
-		},
-		{
-			"title": "The Light Under Closed Doors",
-			"artist": "The Swellers",
-			"genre": "Pop Punk",
-			"label": "No Sleep Records",
-			"release": "2013",
-			"art": "albumart/lightundercloseddoors.jpg"
-		},
-		{
-			"title": "Wildlife",
-			"artist": "La Dispute",
-			"genre": "Spoken Word",
-			"label": "No Sleep Records",
-			"release": "2011",
-			"art": "albumart/wildlife.jpg"
-		},
-		{
-			"title": "Dance Gavin Dance",
-			"artist": "Dance Gavin Dance",
-			"genre": "Post-Hardcore",
-			"label": "Rise Records",
-			"release": "2008",
-			"art": "albumart/dancegavindance.jpg"
-		},
-		{
-			"title": "Enola",
-			"artist": "I Can Make A Mess",
-			"genre": "Singer/Songwriter",
-			"label": "Rise Records",
-			"release": "2013",
-			"art": "albumart/enola.jpg"
-		},
-		{
-			"title": "The Con",
-			"artist": "Tegan and Sara",
-			"genre": "Singer/Songwriter",
-			"label": "Vapor",
-			"release": "2007",
-			"art": "albumart/thecon.jpg"
-		},
-		{
-			"title": "Wincing the Night Away",
-			"artist": "The Shins",
-			"genre": "Indie",
-			"label": "Sub Pop Records",
-			"release": "2007",
-			"art": "albumart/wincingthenightaway.jpg"
-		},
-		{
-			"title": "The Moon and Antarctica",
-			"artist": "Modest Mouse",
-			"genre": "Alternative",
-			"label": "Epic",
-			"release": "2000",
-			"art": "albumart/moonandantarctica.jpg"
-		},
-		{
-			"title": "Hello Rockview",
-			"artist": "Less Than Jake",
-			"genre": "Ska",
-			"label": "Fueled by Ramen",
-			"release": "1998",
-			"art": "albumart/hellorockview.jpg"
-		},
-		{
-			"title": "Say What You Mean",
-			"artist": "Allison Weiss",
-			"genre": "Singer/Songwriter",
-			"label": "No Sleep Records",
-			"release": "2013",
-			"art": "albumart/saywhatyoumean.jpg"
-		},
-		{
-			"title": "When It Was Now",
-			"artist": "Atlas Genius",
-			"genre": "Indie",
-			"label": "Warner",
-			"release": "2013",
-			"art": "albumart/whenitwasnow.jpg"
-		},
-		{
-			"title": "The Things We Think We're Missing",
-			"artist": "Balance and Composure",
-			"genre": "Post-Hardcore",
-			"label": "No Sleep Records",
-			"release": "2013",
-			"art": "albumart/thinkweremissing.jpg"
-		},
-		{
-			"title": "Silent Alarm",
-			"artist": "Bloc Party",
-			"genre": "Alternative",
-			"label": "Wichita",
-			"release": "2005",
-			"art": "albumart/silentalarm.jpg"
-		},
-		{
-			"title": "Sempiternal",
-			"artist": "Bring Me the Horizon",
-			"genre": "Metalcore",
-			"label": "Epitaph Records",
-			"release": "2013",
-			"art": "albumart/sempiternal.jpg"
-		},
-		{
-			"title": "Brothers in Arms",
-			"artist": "Dire Straits",
-			"genre": "Rock",
-			"label": "Warner",
-			"release": "1985",
-			"art": "albumart/brothersinarms.jpg"
-		},
-		{
-			"title": "Blue Sky Noise",
-			"artist": "Circa Survive",
-			"genre": "Alternative",
-			"label": "Atlantic",
-			"release": "2010",
-			"art": "albumart/blueskynoise.jpg"
-		},
-		{
-			"title": "Pretty Good",
-			"artist": "Dads",
-			"genre": "Emo",
-			"label": "6131 Records",
-			"release": "2013",
-			"art": "albumart/prettygood.jpg"
-		}
-	]
-}
+[
+	{
+		"title": "Proper",
+		"artist": "Into It. Over It.",
+		"genre": "Indie",
+		"label": "No Sleep Records",
+		"release": "2011",
+		"art": "albumart/proper.jpg"
+	},
+	{
+		"title": "Their / They're / There",
+		"artist": "Their / They're / There",
+		"genre": "Indie",
+		"label": "Top Shelf Records",
+		"release": "2013",
+		"art": "albumart/theirtheyrethere.jpg"
+	},
+	{
+		"title": "Parting the Sea Between Brightness and Me",
+		"artist": "Touché Amoré",
+		"genre": "Post-Hardcore",
+		"label": "Deathwish",
+		"release": "2011",
+		"art": "albumart/partingthesea.jpg"
+	},
+	{
+		"title": "Is Survived By",
+		"artist": "Touché Amoré",
+		"genre": "Post-Hardcore",
+		"label": "Deathwish",
+		"release": "2013",
+		"art": "albumart/issurvivedby.jpg"
+	},
+	{
+		"title": "The Light Under Closed Doors",
+		"artist": "The Swellers",
+		"genre": "Pop Punk",
+		"label": "No Sleep Records",
+		"release": "2013",
+		"art": "albumart/lightundercloseddoors.jpg"
+	},
+	{
+		"title": "Wildlife",
+		"artist": "La Dispute",
+		"genre": "Spoken Word",
+		"label": "No Sleep Records",
+		"release": "2011",
+		"art": "albumart/wildlife.jpg"
+	},
+	{
+		"title": "Dance Gavin Dance",
+		"artist": "Dance Gavin Dance",
+		"genre": "Post-Hardcore",
+		"label": "Rise Records",
+		"release": "2008",
+		"art": "albumart/dancegavindance.jpg"
+	},
+	{
+		"title": "Enola",
+		"artist": "I Can Make A Mess",
+		"genre": "Singer/Songwriter",
+		"label": "Rise Records",
+		"release": "2013",
+		"art": "albumart/enola.jpg"
+	},
+	{
+		"title": "The Con",
+		"artist": "Tegan and Sara",
+		"genre": "Singer/Songwriter",
+		"label": "Vapor",
+		"release": "2007",
+		"art": "albumart/thecon.jpg"
+	},
+	{
+		"title": "Wincing the Night Away",
+		"artist": "The Shins",
+		"genre": "Indie",
+		"label": "Sub Pop Records",
+		"release": "2007",
+		"art": "albumart/wincingthenightaway.jpg"
+	},
+	{
+		"title": "The Moon and Antarctica",
+		"artist": "Modest Mouse",
+		"genre": "Alternative",
+		"label": "Epic",
+		"release": "2000",
+		"art": "albumart/moonandantarctica.jpg"
+	},
+	{
+		"title": "Hello Rockview",
+		"artist": "Less Than Jake",
+		"genre": "Ska",
+		"label": "Fueled by Ramen",
+		"release": "1998",
+		"art": "albumart/hellorockview.jpg"
+	},
+	{
+		"title": "Say What You Mean",
+		"artist": "Allison Weiss",
+		"genre": "Singer/Songwriter",
+		"label": "No Sleep Records",
+		"release": "2013",
+		"art": "albumart/saywhatyoumean.jpg"
+	},
+	{
+		"title": "When It Was Now",
+		"artist": "Atlas Genius",
+		"genre": "Indie",
+		"label": "Warner",
+		"release": "2013",
+		"art": "albumart/whenitwasnow.jpg"
+	},
+	{
+		"title": "The Things We Think We're Missing",
+		"artist": "Balance and Composure",
+		"genre": "Post-Hardcore",
+		"label": "No Sleep Records",
+		"release": "2013",
+		"art": "albumart/thinkweremissing.jpg"
+	},
+	{
+		"title": "Silent Alarm",
+		"artist": "Bloc Party",
+		"genre": "Alternative",
+		"label": "Wichita",
+		"release": "2005",
+		"art": "albumart/silentalarm.jpg"
+	},
+	{
+		"title": "Sempiternal",
+		"artist": "Bring Me the Horizon",
+		"genre": "Metalcore",
+		"label": "Epitaph Records",
+		"release": "2013",
+		"art": "albumart/sempiternal.jpg"
+	},
+	{
+		"title": "Brothers in Arms",
+		"artist": "Dire Straits",
+		"genre": "Rock",
+		"label": "Warner",
+		"release": "1985",
+		"art": "albumart/brothersinarms.jpg"
+	},
+	{
+		"title": "Blue Sky Noise",
+		"artist": "Circa Survive",
+		"genre": "Alternative",
+		"label": "Atlantic",
+		"release": "2010",
+		"art": "albumart/blueskynoise.jpg"
+	},
+	{
+		"title": "Pretty Good",
+		"artist": "Dads",
+		"genre": "Emo",
+		"label": "6131 Records",
+		"release": "2013",
+		"art": "albumart/prettygood.jpg"
+	}
+]
