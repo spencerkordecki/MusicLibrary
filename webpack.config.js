@@ -8,6 +8,11 @@ module.exports = {
         filename: 'index_bundle.js',
         publicPath: '/'
     },
+    resolve: {
+        alias: {
+            vue$: 'vue/dist/vue.common.js',
+        }
+    },
     module: {
         rules: [{
                 test: /\.js$/,
@@ -19,6 +24,14 @@ module.exports = {
                     'style-loader',
                     'css-loader'
                 ]
+            },
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader'
+            },
+            {
+                test: /\.json$/,
+                loader: 'json-loader'
             }
         ]
     },
