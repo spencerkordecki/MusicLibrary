@@ -13,7 +13,7 @@
 
 <script>
     import Album from './components/Album.vue';
-    import AlbumData from './data/albums.json';
+    import AlbumData from './assets/albums.json';
 
     export default {
         name: 'app',
@@ -30,7 +30,7 @@
 
 <style>
     body {
-        background-color: #00E6E6;
+        background-color: #d5e1df;
     }
 
     #albums {

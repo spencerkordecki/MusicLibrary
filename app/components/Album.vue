@@ -1,25 +1,33 @@
 <template>
     <div class="album">
         <div class="artwork">
-            <img src="http://via.placeholder.com/300x300" class="album-art">
+            <img :src="getArt(info.art)" class="album-art">
         </div>
         <div class="album-information">
-            <h2 class="artist-name">{{ info.artist }}</h2>
-            <h3 class="album-name">{{ info.title }}</h3>
-            <h5 class="genre">{{ info.genre }}</h5>
-            <h5 class="label">{{ info.label }}</h5>
-            <h5 class="release">{{ info.release }}</h5>
+            <h3 class="album-title">{{ info.title }}</h3>
+            <h4 class="album-artist">{{ info.artist }}</h4>
+            <h5 class="album-genre">{{ info.genre }}</h5>
+            <h5 class="album-label">{{ info.label }}</h5>
+            <h5 class="album-release">{{ info.release }}</h5>
         </div>
     </div>
 </template>
 
 <script>
+    import image from '../assets/albumart/silentalarm.jpg';
+
     export default {
         name: 'album',
         props: {
             info: {
                 type: Object,
                 required: true
+            }
+        },
+        methods: {
+            getArt(album) {
+                var images = require.context('../assets/albumart/', false, /\.jpg/);
+                return images('./' + album);
             }
         }
     }
@@ -42,7 +50,7 @@
 
     .album-information {
         background: hsla(50, 0%, 0%, 0.7);
-        opacity: 1;
+        opacity: 0;
         transition: .3s opacity ease-out;
         position: absolute;
         top: 1em;
@@ -59,21 +67,22 @@
         border-radius: 5px;
     }
 
-    .album h2, .album h3, .album h5 {
+    .album-information {
         color: white;
+        font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
     }
 
-    .album h3, .album h5 {
+    .album h4, .album h5 {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         margin: .5em;
     }
 
-    .album h2 {
+    .album h3 {
         word-break: normal;
         line-height: 1em;
-        height: 2em;
+        height: 3em;
     }
 
     @media (max-width: 480px) {
