@@ -36,8 +36,8 @@
     #albums {
         clear: both;
         overflow: hidden;
-        flex-direction: row;
         display: flex;
-        flex-wrap: wrap;
+        flex-flow: row wrap;
+        justify-content: space-around;
     }
 </style>
