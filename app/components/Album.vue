@@ -14,8 +14,6 @@
 </template>
 
 <script>
-    import image from '../assets/albumart/silentalarm.jpg';
-
     export default {
         name: 'album',
         props: {
@@ -69,7 +67,7 @@
 
     .album-information {
         color: white;
-        font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     }
 
     .album h4, .album h5 {
