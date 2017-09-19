@@ -1,9 +1,14 @@
 <template>
     <div id="app">
-        <div id="search"></div>
+        <div id="searchBox">
+            <input 
+                v-model.trim="searchTerm" 
+                type="text"
+                placeholder="Search Titles"></input>
+        </div>
         <div id="albums">
             <album
-                v-for="album in albumData"
+                v-for="album in search"
                 :key="album.title"
                 :info="album">
             </album>
@@ -19,16 +24,47 @@
         name: 'app',
         data: function() {
             return {
-                albumData: AlbumData
-            };
+                albumData: AlbumData,
+                searchTerm: ''
+            }
         },
         components: {
             Album
+        },
+        computed: {
+            search: function() {
+                return this.albumData.filter((album) => {
+                    return album.title.toLowerCase().includes(this.searchTerm.toLowerCase());
+                });
+            }
         }
     }   
 </script>
 
 <style>
+    #searchBox {
+        float: right;
+        padding-right: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    #searchBox input {
+        font-size: 1em;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    #searchBox button {
+        border: none;
+        background: #455A64;
+        color: #ffffff;
+        font-size: 1em;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
     body {
         background-color: #d5e1df;
     }
