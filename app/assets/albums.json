@@ -1,162 +1,162 @@
 [
-	{
-		"title": "Silent Alarm",
-		"artist": "Bloc Party",
-		"genre": "Indie",
-		"label": "Wichita",
-		"release": "2005",
-		"art": "silentalarm.jpg"
-	},
-	{
-		"title": "Their / They're / There",
-		"artist": "Their / They're / There",
-		"genre": "Indie",
-		"label": "Top Shelf Records",
-		"release": "2013",
-		"art": "theirtheyrethere.jpg"
-	},
-	{
-		"title": "Parting the Sea Between Brightness and Me",
-		"artist": "Touché Amoré",
-		"genre": "Post-Hardcore",
-		"label": "Deathwish",
-		"release": "2011",
-		"art": "partingtheseabetweenbrightnessandme.jpg"
-	},
-	{
-		"title": "Trouble Will Find Me",
-		"artist": "The National",
-		"genre": "Indie",
-		"label": "4AD",
-		"release": "2013",
-		"art": "troublewillfindme.jpg"
-	},
-	{
-		"title": "Rooms of the House",
-		"artist": "La Dispute",
-		"genre": "Post Hardcore",
-		"label": "Staple Records",
-		"release": "2014",
-		"art": "roomsofthehouse.jpg"
-	},
-	{
-		"title": "Rhythm, Chord, & Melody",
-		"artist": "Reign of Kindo",
-		"genre": "Jazz",
-		"label": "One Eleven Records",
-		"release": "2008",
-		"art": "rhythmchordandmelody.jpg"
-	},
-	{
-		"title": "Dance Gavin Dance",
-		"artist": "Dance Gavin Dance",
-		"genre": "Post-Hardcore",
-		"label": "Rise Records",
-		"release": "2008",
-		"art": "dancegavindance.jpg"
-	},
-	{
-		"title": "Enola",
-		"artist": "I Can Make A Mess",
-		"genre": "Singer/Songwriter",
-		"label": "Rise Records",
-		"release": "2013",
-		"art": "enola.jpg"
-	},
-	{
-		"title": "The Con",
-		"artist": "Tegan and Sara",
-		"genre": "Singer/Songwriter",
-		"label": "Vapor",
-		"release": "2007",
-		"art": "thecon.jpg"
-	},
-	{
-		"title": "Intersections",
-		"artist": "Into It. Over It.",
-		"genre": "Indie",
-		"label": "Triple Crown Records",
-		"release": "2013",
-		"art": "intersections.jpg"
-	},
-	{
-		"title": "The Moon and Antarctica",
-		"artist": "Modest Mouse",
-		"genre": "Alternative",
-		"label": "Epic",
-		"release": "2000",
-		"art": "moonandantarctica.jpg"
-	},
-	{
-		"title": "Hello Rockview",
-		"artist": "Less Than Jake",
-		"genre": "Ska",
-		"label": "Fueled by Ramen",
-		"release": "1998",
-		"art": "hellorockview.jpg"
-	},
-	{
-		"title": "Yuck",
-		"artist": "Alpine",
-		"genre": "Synth-pop",
-		"label": "Ivy League Records",
-		"release": "2015",
-		"art": "yuck.jpg"
-	},
-	{
-		"title": "Juturna",
-		"artist": "Circa Survive",
-		"genre": "Rock",
-		"label": "Equal Vision Records",
-		"release": "2013",
-		"art": "juturna.jpg"
-	},
-	{
-		"title": "The Things We Think We're Missing",
-		"artist": "Balance and Composure",
-		"genre": "Post-Hardcore",
-		"label": "No Sleep Records",
-		"release": "2013",
-		"art": "thethingswethinkweremissing.jpg"
-	},
-	{
-		"title": "Pool",
-		"artist": "Porches",
-		"genre": "Synth-pop",
-		"label": "Domino",
-		"release": "2016",
-		"art": "pool.jpg"
-	},
-	{
-		"title": "Tourist History",
-		"artist": "Two Door Cinema Club",
-		"genre": "Pop Rock",
-		"label": "Glassnote",
-		"release": "2010",
-		"art": "touristhistory.jpg"
-	},
-	{
-		"title": "Brothers in Arms",
-		"artist": "Dire Straits",
-		"genre": "Rock",
-		"label": "Warner",
-		"release": "1985",
-		"art": "brothersinarms.jpg"
-	},
-	{
-		"title": "Tancred",
-		"artist": "Tancred",
-		"genre": "Singer/Songwriter",
-		"label": "Topshelf",
-		"release": "2013",
-		"art": "tancred.jpg"
-	},
-	{
-		"title": "Civilian",
-		"artist": "Wye Oak",
-		"genre": "Indie Folk",
-		"label": "Merge",
-		"release": "2011",
-		"art": "civilian.jpg"
-	}
+  {
+    "title": "Silent Alarm",
+    "artist": "Bloc Party",
+    "genre": "Indie",
+    "label": "Wichita",
+    "release": "2005",
+    "art": "silentalarm.jpg"
+  },
+  {
+    "title": "Their / They're / There",
+    "artist": "Their / They're / There",
+    "genre": "Indie",
+    "label": "Top Shelf Records",
+    "release": "2013",
+    "art": "theirtheyrethere.jpg"
+  },
+  {
+    "title": "Parting the Sea Between Brightness and Me",
+    "artist": "Touché Amoré",
+    "genre": "Post-Hardcore",
+    "label": "Deathwish",
+    "release": "2011",
+    "art": "partingtheseabetweenbrightnessandme.jpg"
+  },
+  {
+    "title": "Trouble Will Find Me",
+    "artist": "The National",
+    "genre": "Indie",
+    "label": "4AD",
+    "release": "2013",
+    "art": "troublewillfindme.jpg"
+  },
+  {
+    "title": "Rooms of the House",
+    "artist": "La Dispute",
+    "genre": "Post Hardcore",
+    "label": "Staple Records",
+    "release": "2014",
+    "art": "roomsofthehouse.jpg"
+  },
+  {
+    "title": "Rhythm, Chord, & Melody",
+    "artist": "Reign of Kindo",
+    "genre": "Jazz",
+    "label": "One Eleven Records",
+    "release": "2008",
+    "art": "rhythmchordandmelody.jpg"
+  },
+  {
+    "title": "Dance Gavin Dance",
+    "artist": "Dance Gavin Dance",
+    "genre": "Post-Hardcore",
+    "label": "Rise Records",
+    "release": "2008",
+    "art": "dancegavindance.jpg"
+  },
+  {
+    "title": "Enola",
+    "artist": "I Can Make A Mess",
+    "genre": "Singer/Songwriter",
+    "label": "Rise Records",
+    "release": "2013",
+    "art": "enola.jpg"
+  },
+  {
+    "title": "The Con",
+    "artist": "Tegan and Sara",
+    "genre": "Singer/Songwriter",
+    "label": "Vapor",
+    "release": "2007",
+    "art": "thecon.jpg"
+  },
+  {
+    "title": "Intersections",
+    "artist": "Into It. Over It.",
+    "genre": "Indie",
+    "label": "Triple Crown Records",
+    "release": "2013",
+    "art": "intersections.jpg"
+  },
+  {
+    "title": "The Moon and Antarctica",
+    "artist": "Modest Mouse",
+    "genre": "Alternative",
+    "label": "Epic",
+    "release": "2000",
+    "art": "moonandantarctica.jpg"
+  },
+  {
+    "title": "Hello Rockview",
+    "artist": "Less Than Jake",
+    "genre": "Ska",
+    "label": "Fueled by Ramen",
+    "release": "1998",
+    "art": "hellorockview.jpg"
+  },
+  {
+    "title": "Yuck",
+    "artist": "Alpine",
+    "genre": "Synth-pop",
+    "label": "Ivy League Records",
+    "release": "2015",
+    "art": "yuck.jpg"
+  },
+  {
+    "title": "Juturna",
+    "artist": "Circa Survive",
+    "genre": "Rock",
+    "label": "Equal Vision Records",
+    "release": "2013",
+    "art": "juturna.jpg"
+  },
+  {
+    "title": "The Things We Think We're Missing",
+    "artist": "Balance and Composure",
+    "genre": "Post-Hardcore",
+    "label": "No Sleep Records",
+    "release": "2013",
+    "art": "thethingswethinkweremissing.jpg"
+  },
+  {
+    "title": "Pool",
+    "artist": "Porches",
+    "genre": "Synth-pop",
+    "label": "Domino",
+    "release": "2016",
+    "art": "pool.jpg"
+  },
+  {
+    "title": "Tourist History",
+    "artist": "Two Door Cinema Club",
+    "genre": "Pop Rock",
+    "label": "Glassnote",
+    "release": "2010",
+    "art": "touristhistory.jpg"
+  },
+  {
+    "title": "Brothers in Arms",
+    "artist": "Dire Straits",
+    "genre": "Rock",
+    "label": "Warner",
+    "release": "1985",
+    "art": "brothersinarms.jpg"
+  },
+  {
+    "title": "Tancred",
+    "artist": "Tancred",
+    "genre": "Singer/Songwriter",
+    "label": "Topshelf",
+    "release": "2013",
+    "art": "tancred.jpg"
+  },
+  {
+    "title": "Civilian",
+    "artist": "Wye Oak",
+    "genre": "Indie Folk",
+    "label": "Merge",
+    "release": "2011",
+    "art": "civilian.jpg"
+  }
 ]
