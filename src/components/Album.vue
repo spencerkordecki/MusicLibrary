@@ -1,7 +1,7 @@
 <template>
   <div class="album">
     <div class="artwork">
-      <img :src="getArt(info.art)" class="album-art">
+      <img :src="info.art" class="album-art">
     </div>
     <div class="album-information">
       <h3 class="album-title">{{ info.title }}</h3>
@@ -15,17 +15,11 @@
 
 <script>
 export default {
-  name: "album",
+  name: 'album',
   props: {
     info: {
       type: Object,
       required: true
-    }
-  },
-  methods: {
-    getArt(album) {
-      var images = require.context("../assets/albumart/", false, /\.jpg/);
-      return images("./" + album);
     }
   }
 };
@@ -67,7 +61,7 @@ export default {
 
 .album-information {
   color: white;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva,
     Arial, sans-serif;
 }
 

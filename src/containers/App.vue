@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="searchBox">
+    <div id="search-box">
       <input v-model.trim="searchTerm" type="text" placeholder="Search Titles">
     </div>
     <div id="albums">
@@ -10,22 +10,22 @@
 </template>
 
 <script>
-import Album from "./components/Album.vue";
-import AlbumData from "./assets/albums.json";
+import Album from '../components/Album.vue';
+import AlbumData from '../data/albums.json';
 
 export default {
-  name: "app",
-  data: function() {
+  name: 'app',
+  data() {
     return {
       albumData: AlbumData,
-      searchTerm: ""
+      searchTerm: ''
     };
   },
   components: {
     Album
   },
   computed: {
-    search: function() {
+    search() {
       return this.albumData.filter(album => {
         return album.title
           .toLowerCase()
@@ -37,21 +37,21 @@ export default {
 </script>
 
 <style>
-#searchBox {
+#search-box {
   float: right;
   padding-right: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
-#searchBox input {
+#search-box input {
   font-size: 1em;
   padding: 5px;
   border-radius: 5px;
   border: none;
 }
 
-#searchBox button {
+#search-box button {
   border: none;
   background: #455a64;
   color: #ffffff;
