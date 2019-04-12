@@ -1,11 +1,15 @@
 ### To Install
 
-`yarn install`
+`npm install`
 
 ### To run
 
-`yarn run start`
+Builds the application in development mode and opens the browser with webpack-dev-server running
+
+`npm run dev`
 
 ### To build
 
-`yarn run webpack`
+Builds the application in production mode
+
+`npm run build`

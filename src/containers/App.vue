@@ -4,13 +4,14 @@
       <input v-model.trim="searchTerm" type="text" placeholder="Search Titles">
     </div>
     <div id="albums">
-      <album v-for="album in search" :key="album.title" :info="album"></album>
+      <album-item v-for="album in search" :key="album.title" :info="album"></album-item>
     </div>
   </div>
 </template>
 
 <script>
-import Album from '../components/Album.vue';
+import mainStyling from '../styles/main.css';
+import AlbumItem from '../components/AlbumItem.vue';
 import AlbumData from '../data/albums.json';
 
 export default {
@@ -22,7 +23,7 @@ export default {
     };
   },
   components: {
-    Album
+    AlbumItem
   },
   computed: {
     search() {
@@ -36,7 +37,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #search-box {
   float: right;
   padding-right: 1em;
@@ -58,10 +59,6 @@ export default {
   font-size: 1em;
   padding: 5px;
   border-radius: 5px;
-}
-
-body {
-  background-color: #d5e1df;
 }
 
 #albums {
