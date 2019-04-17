@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import mainStyling from '../styles/main.css';
 import AlbumItem from '../components/AlbumItem.vue';
 import AlbumData from '../data/albums.json';
 
@@ -37,7 +36,9 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss">
+@import '../styles/main.scss';
+
 #search-box {
   float: right;
   padding-right: 1em;

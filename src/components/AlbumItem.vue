@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'album',
+  name: 'albumItem',
   props: {
     info: {
       type: Object,
@@ -25,7 +25,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 .album {
   min-width: 0;
   max-width: 300px; /* resolution of image */
