@@ -1,9 +1,14 @@
 <template>
   <div id="app">
-    <div id="search-box">
-      <input v-model.trim="searchTerm" type="text" placeholder="Search Titles">
+    <div class="search">
+      <input
+        class="search__input"
+        v-model.trim="searchTerm"
+        type="text"
+        placeholder="Search Titles"
+      >
     </div>
-    <div id="albums">
+    <div class="albums">
       <album-item v-for="album in search" :key="album.title" :info="album"></album-item>
     </div>
   </div>
@@ -39,30 +44,18 @@ export default {
 <style lang="scss">
 @import '../styles/main.scss';
 
-#search-box {
+.search {
   float: right;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em;
+  .search__input {
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
 }
 
-#search-box input {
-  font-size: 1em;
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
-}
-
-#search-box button {
-  border: none;
-  background: #455a64;
-  color: #ffffff;
-  font-size: 1em;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-#albums {
+.albums {
   clear: both;
   overflow: hidden;
   display: flex;
