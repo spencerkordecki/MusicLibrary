@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import AlbumItem from '../components/AlbumItem.vue';
-import AlbumData from '../data/albums.json';
+import AlbumItem from './components/AlbumItem.vue';
+import AlbumData from './data/albums.json';
 
 export default {
   name: 'app',
@@ -42,7 +42,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../styles/main.scss';
+body {
+  background-color: #d5e1df;
+}
 
 .search {
   float: right;
