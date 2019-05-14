@@ -1,5 +1,5 @@
 <template>
-  <div class="album" tabindex="1">
+  <div class="album" tabindex="0">
     <div class="album__artwork">
       <img :src="info.art" :alt="info.title + 'Album Art'" class="album__art">
     </div>
