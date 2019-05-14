@@ -1,7 +1,7 @@
 <template>
-  <div class="album">
+  <div class="album" tabindex="1">
     <div class="album__artwork">
-      <img :src="info.art" class="album__art">
+      <img :src="info.art" :alt="info.title + 'Album Art'" class="album__art">
     </div>
     <div class="album__information">
       <p class="album__title">{{ info.title }}</p>
@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'albumItem',
+  name: 'AlbumItem',
   props: {
     info: {
       type: Object,
@@ -34,6 +34,18 @@ export default {
   padding: 1em;
   position: relative;
   text-align: center;
+  outline: none;
+  &:hover,
+  &:focus {
+    .album__information {
+      opacity: 1;
+    }
+  }
+  &:focus {
+    .album__information {
+      border: 4px dashed #fff;
+    }
+  }
   .album__artwork {
     .album__art {
       display: block;
@@ -58,9 +70,6 @@ export default {
     color: white;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva,
       Arial, sans-serif;
-    &:hover {
-      opacity: 1;
-    }
     .album__title {
       word-break: normal;
       font-size: 1.2em;
